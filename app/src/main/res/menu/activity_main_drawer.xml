@@ -6,15 +6,27 @@
     <group android:checkableBehavior="single">
         <item
             android:id="@+id/nav_home"
-            android:icon="@drawable/ic_menu_camera"
-            android:title="@string/menu_home" />
+            android:icon="@drawable/ic_baseline_ballot_24"
+            android:title="Rezultati" />
         <item
             android:id="@+id/nav_gallery"
-            android:icon="@drawable/ic_menu_gallery"
-            android:title="@string/menu_gallery" />
+            android:icon="@drawable/ic_baseline_share_24"
+            android:title="Pozovi prijatelje" />
         <item
             android:id="@+id/nav_slideshow"
-            android:icon="@drawable/ic_menu_slideshow"
-            android:title="@string/menu_slideshow" />
+            android:icon="@drawable/ic_baseline_rate_review_24"
+            android:title="Ocijeni aplikaciju" />
+        <item
+            android:id="@+id/nav_reklame"
+            android:icon="@drawable/ic_baseline_tv_24"
+            android:title="Ukloni reklame"/>
+        <item
+            android:id="@+id/nav_postavke"
+            android:icon="@drawable/ic_baseline_settings_24"
+            android:title="Postavke" />
+        <item
+            android:id="@+id/nav_info"
+            android:icon="@drawable/ic_baseline_info_24"
+            android:title="Info"/>
     </group>
 </menu>
