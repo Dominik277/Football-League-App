@@ -16,7 +16,25 @@
         android:layout_gravity="start"
         android:fitsSystemWindows="true"
         app:headerLayout="@layout/nav_header_main"
-        app:menu="@menu/activity_main_drawer" />
+        app:menu="@menu/activity_main_drawer">
+
+        <LinearLayout
+            android:layout_gravity="bottom"
+            android:layout_marginLeft="80dp"
+            android:layout_height="30dp"
+            android:layout_width="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginBottom="5dp">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="v1.0.10c R2 Team"
+                android:textSize="16dp"
+                android:textColor="#262626"/>
+        </LinearLayout>
+
+    </com.google.android.material.navigation.NavigationView>
+
 
     <include
         layout="@layout/app_bar_main"
