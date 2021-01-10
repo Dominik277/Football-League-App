@@ -11,7 +11,7 @@
         android:theme="@style/Theme.FootballLeagueApp">
         <activity
             android:name=".MainActivity"
-            android:label="@string/app_name"
+            android:label="HR Nogomet"
             android:theme="@style/Theme.FootballLeagueApp.NoActionBar">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
