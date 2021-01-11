@@ -3,27 +3,27 @@
 
     <item
         android:id="@+id/nav_natjecanja"
-        android:icon="@drawable/ic_baseline_search_24"
+        android:icon="@drawable/ic_baseline_format_list_numbered_24"
         android:title="Natjecanja">
     </item>
     <item
         android:id="@+id/nav_utakmice"
-        android:icon="@drawable/ic_baseline_search_24"
+        android:icon="@drawable/ic_baseline_sports_soccer_24"
         android:title="Utakmice">
     </item>
     <item
         android:id="@+id/nav_novosti"
-        android:icon="@drawable/ic_baseline_search_24"
+        android:icon="@drawable/ic_baseline_text_snippet_24"
         android:title="Novosti">
     </item>
     <item
         android:id="@+id/nav_uzivo"
-        android:icon="@drawable/ic_baseline_search_24"
+        android:icon="@drawable/ic_baseline_sensors_24"
         android:title="Uzivo">
     </item>
     <item
         android:id="@+id/nav_favoriti"
-        android:icon="@drawable/ic_baseline_search_24"
+        android:icon="@drawable/ic_baseline_star_rate_24"
         android:title="Favoriti">
     </item>
 
