@@ -2,17 +2,29 @@
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
 
     <item
-        android:id="@+id/nav_home"
+        android:id="@+id/nav_natjecanja"
         android:icon="@drawable/ic_baseline_search_24"
-        android:title="Home">
+        android:title="Natjecanja">
     </item>
     <item
-        android:id="@+id/nav_favorites"
+        android:id="@+id/nav_utakmice"
         android:icon="@drawable/ic_baseline_search_24"
-        android:title="Favorites"></item>
+        android:title="Utakmice">
+    </item>
     <item
-        android:id="@+id/nav_search"
+        android:id="@+id/nav_novosti"
         android:icon="@drawable/ic_baseline_search_24"
-        android:title="Search"></item>
+        android:title="Novosti">
+    </item>
+    <item
+        android:id="@+id/nav_uzivo"
+        android:icon="@drawable/ic_baseline_search_24"
+        android:title="Uzivo">
+    </item>
+    <item
+        android:id="@+id/nav_favoriti"
+        android:icon="@drawable/ic_baseline_search_24"
+        android:title="Favoriti">
+    </item>
 
 </menu>

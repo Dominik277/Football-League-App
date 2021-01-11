@@ -5,7 +5,7 @@
 
     <group android:checkableBehavior="single">
         <item
-            android:id="@+id/nav_home"
+            android:id="@+id/nav_natjecanja"
             android:icon="@drawable/ic_baseline_ballot_24"
             android:title="Rezultati" />
         <item
