@@ -7,9 +7,8 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ImageView;
 import android.widget.TextView;
-
+import android.widget.Toast;
 import java.util.ArrayList;
-
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
@@ -23,6 +22,7 @@ public class NovostiAdapter extends RecyclerView.Adapter<NovostiAdapter.ViewHold
 
     private Context context;
     private ArrayList<ModelNovosti> modelNovostiArrayList;
+    private ModelNovosti modelNovosti;
 
     public NovostiAdapter(Context context, ArrayList<ModelNovosti> modelNovostiArrayList) {
         this.context = context;
@@ -47,7 +47,7 @@ public class NovostiAdapter extends RecyclerView.Adapter<NovostiAdapter.ViewHold
         holder.itemView.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(context,NovostiClickActivity.class);
+                Toast.makeText(context,modelNovosti.getNaslov(),Toast.LENGTH_LONG).show();
 
             }
         });
