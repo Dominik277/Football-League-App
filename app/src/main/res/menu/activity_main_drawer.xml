@@ -9,11 +9,11 @@
             android:icon="@drawable/ic_baseline_ballot_24"
             android:title="Rezultati" />
         <item
-            android:id="@+id/nav_gallery"
+            android:id="@+id/nav_pozoviPrijatelje"
             android:icon="@drawable/ic_baseline_share_24"
             android:title="Pozovi prijatelje" />
         <item
-            android:id="@+id/nav_slideshow"
+            android:id="@+id/nav_dijeliAplikaciju"
             android:icon="@drawable/ic_baseline_rate_review_24"
             android:title="Ocijeni aplikaciju" />
         <item
