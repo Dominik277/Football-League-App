@@ -7,6 +7,7 @@ import android.view.MenuItem;
 import android.view.Menu;
 import android.view.Window;
 import android.view.WindowManager;
+import android.widget.Toast;
 
 import com.google.android.material.bottomnavigation.BottomNavigationView;
 import com.google.android.material.navigation.NavigationView;
@@ -31,8 +32,8 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
 
         BottomNavigationView bottomNav = findViewById(R.id.bottom_navigation);
         bottomNav.setOnNavigationItemSelectedListener(navListener);
-        getSupportFragmentManager().beginTransaction().replace(R.id.fragment_container,
-                new NatjecanjaFragment()).commit();
+       // getSupportFragmentManager().beginTransaction().replace(R.id.fragment_container,
+         //       new NatjecanjaFragment()).commit();
 
         Toolbar toolbar = findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
@@ -72,6 +73,7 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
         return true;
     }
 
+
     @Override
     public boolean onNavigationItemSelected(@NonNull MenuItem item) {
         return false;
@@ -84,23 +86,23 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
                     Fragment selectedFragment = null;
                     switch (item.getItemId()){
                         case R.id.nav_natjecanja:
-                            selectedFragment = new NatjecanjaFragment();
+                            Toast.makeText(MainActivity.this,"Natjecanja",Toast.LENGTH_LONG).show();
                             break;
                         case R.id.nav_utakmice:
-                            selectedFragment = new UtakmiceFragment();
+                            Toast.makeText(MainActivity.this,"Utakmice",Toast.LENGTH_LONG).show();
                             break;
                         case R.id.nav_novosti:
-                            selectedFragment = new NovostiFragment();
+                            Toast.makeText(MainActivity.this,"Novosti",Toast.LENGTH_LONG).show();
                             break;
                         case R.id.nav_uzivo:
-                            selectedFragment = new UzivoFragment();
+                            Toast.makeText(MainActivity.this,"Uzivo",Toast.LENGTH_LONG).show();
                             break;
                         case R.id.nav_favoriti:
-                            selectedFragment = new FavoritiFragment();
+                            Toast.makeText(MainActivity.this,"Favorit",Toast.LENGTH_LONG).show();
                             break;
                     }
-                    getSupportFragmentManager().beginTransaction().replace(R.id.fragment_container,
-                            selectedFragment).commit();
+                    //getSupportFragmentManager().beginTransaction().replace(R.id.fragment_container,
+                    //        selectedFragment).commit();
                     return true;
                 }
             };
