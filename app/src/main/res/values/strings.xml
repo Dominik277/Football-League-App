@@ -10,6 +10,15 @@
     <string name="menu_home">Home</string>
     <string name="menu_gallery">Gallery</string>
     <string name="menu_slideshow">Slideshow</string>
-    <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="datum_prvi">15.11.2020.</string>
+    <string name="datum_drugi">12.11.2020.</string>
+    <string name="datum_treci">9.11.2020.</string>
+    <string name="datum_cetvrti">6.11.2020.</string>
+    <string name="datum_peti">3.11.2020.</string>
+    <string name="datum_sesti">31.10.2020.</string>
+    <string name="datum_sedmi">25.10.2020.</string>
+    <string name="datum_osmi">20.10.2020.</string>
+    <string name="datum_deveti">15.10.2020.</string>
 </resources>

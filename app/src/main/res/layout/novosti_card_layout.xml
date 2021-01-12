@@ -19,25 +19,30 @@
         <ImageView
             android:id="@+id/cardView_slika"
             android:layout_width="match_parent"
-            android:layout_height="100dp"
-            android:scaleType="centerCrop"/>
+            android:layout_height="100dp"/>
         <TextView
             android:id="@+id/cardView_datum"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="10dp"
-            android:layout_below="@+id/cardView_slika"/>
+            android:layout_marginLeft="10dp"
+            android:layout_below="@+id/cardView_slika"
+            android:textColor="#262626"/>
         <TextView
             android:id="@+id/cardView_naslov"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="10dp"
+            android:layout_marginLeft="10dp"
+            android:textColor="#262626"
             android:layout_below="@+id/cardView_datum"/>
         <TextView
             android:id="@+id/cardView_tekst"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="10dp"
+            android:layout_marginLeft="10dp"
+            android:textColor="#262626"
             android:layout_below="@+id/cardView_naslov"/>
 
     </RelativeLayout>

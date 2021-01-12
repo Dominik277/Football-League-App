@@ -1,6 +1,7 @@
 package hr.dominik.footballleagueapp;
 
 import android.content.Context;
+import android.content.Intent;
 import android.graphics.Color;
 import android.os.Bundle;
 import android.view.MenuItem;
@@ -32,8 +33,8 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
 
         BottomNavigationView bottomNav = findViewById(R.id.bottom_navigation);
         bottomNav.setOnNavigationItemSelectedListener(navListener);
-       // getSupportFragmentManager().beginTransaction().replace(R.id.fragment_container,
-         //       new NatjecanjaFragment()).commit();
+        //getSupportFragmentManager().beginTransaction().replace(R.id.fragment_container,
+        //        new NatjecanjaFragment()).commit();
 
         Toolbar toolbar = findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
@@ -92,7 +93,8 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
                             Toast.makeText(MainActivity.this,"Utakmice",Toast.LENGTH_LONG).show();
                             break;
                         case R.id.nav_novosti:
-                            Toast.makeText(MainActivity.this,"Novosti",Toast.LENGTH_LONG).show();
+                            Intent intent = new Intent(MainActivity.this,NovostiActivity.class);
+                            startActivity(intent);
                             break;
                         case R.id.nav_uzivo:
                             Toast.makeText(MainActivity.this,"Uzivo",Toast.LENGTH_LONG).show();
