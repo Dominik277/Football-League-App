@@ -48,6 +48,10 @@ public class NovostiAdapter extends RecyclerView.Adapter<NovostiAdapter.ViewHold
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(context,NovostiClickActivity.class);
+                intent.putExtra("slika",modelNovosti.getSlika());
+                intent.putExtra("naslov",modelNovosti.getNaslov());
+                intent.putExtra("tekst",modelNovosti.getTekst());
+                intent.putExtra("datum",modelNovosti.getDatum());
                 context.startActivity(intent);
             }
         });

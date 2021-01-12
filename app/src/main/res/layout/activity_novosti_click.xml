@@ -14,19 +14,23 @@
     tools:context=".NovostiClickActivity">
 
     <TextView
+        android:id="@+id/naslov_click"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"/>
     <ImageView
+        android:id="@+id/slika_click"
         android:layout_width="match_parent"
         android:layout_height="300dp"
         android:src="@drawable/nogomet7"
         android:scaleType="centerCrop"/>
     <TextView
+        android:id="@+id/datum_click"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:padding="15dp"
         android:text="dfsgsdfgsd"/>
     <TextView
+        android:id="@+id/tekst_click"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:padding="15dp"
