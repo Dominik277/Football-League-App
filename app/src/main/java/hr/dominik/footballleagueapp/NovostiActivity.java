@@ -1,12 +1,16 @@
 package hr.dominik.footballleagueapp;
 
+import androidx.appcompat.app.ActionBarDrawerToggle;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.cardview.widget.CardView;
+import androidx.drawerlayout.widget.DrawerLayout;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
+import android.content.Context;
 import android.content.Intent;
 import android.os.Bundle;
+import android.view.LayoutInflater;
 import android.view.View;
 
 import java.util.ArrayList;
@@ -16,12 +20,15 @@ public class NovostiActivity extends AppCompatActivity {
     private RecyclerView recyclerView;
     private CardView cardView;
     private ArrayList<ModelNovosti> modelNovostiArrayList;
+    private DrawerLayout drawer;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_novosti);
+
         recyclerView = findViewById(R.id.recyclerViewNovosti);
+
 
         modelNovostiArrayList = new ArrayList<>();
         modelNovostiArrayList.add(new ModelNovosti(R.drawable.nogomet1,"31.12.2020.","Za gajbu piva & 10.000 kn...","Danas započinju prijave za novu ligu pod imenom Za Gajbu.Liga će se održavati na novom terenu"));
