@@ -8,10 +8,23 @@
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:theme="@style/Theme.FootballLeagueApp">
-        <activity android:name=".InfoActivity"></activity>
-        <activity android:name=".NovostiClickActivity" />
-        <activity android:name=".NovostiActivity" />
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".InfoActivity"
+            android:label="Info"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme">>
+        </activity>
+        <activity
+            android:theme="@style/AppTheme"
+            android:name=".NovostiClickActivity"
+            android:label="Novosti"
+            android:parentActivityName=".NovostiActivity"/>
+        <activity
+            android:theme="@style/AppTheme"
+            android:name=".NovostiActivity"
+            android:label="Novosti"
+            android:parentActivityName=".MainActivity"/>
         <activity
             android:name=".MainActivity"
             android:label="HR Nogomet"
