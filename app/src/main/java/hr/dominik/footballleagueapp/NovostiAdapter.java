@@ -47,8 +47,8 @@ public class NovostiAdapter extends RecyclerView.Adapter<NovostiAdapter.ViewHold
         holder.itemView.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Toast.makeText(context,modelNovosti.getNaslov(),Toast.LENGTH_LONG).show();
-
+                Intent intent = new Intent(context,NovostiClickActivity.class);
+                context.startActivity(intent);
             }
         });
 
