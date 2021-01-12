@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="5dp"
+    app:cardBackgroundColor="@color/white"
+    app:cardCornerRadius="8dp"
+    app:cardElevation="8dp"
+    app:cardMaxElevation="10dp"
+    app:cardPreventCornerOverlap="true"
+    app:cardUseCompatPadding="true">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/cardView_slika"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:scaleType="centerCrop"/>
+        <TextView
+            android:id="@+id/cardView_datum"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_below="@+id/cardView_slika"/>
+        <TextView
+            android:id="@+id/cardView_naslov"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_below="@+id/cardView_datum"/>
+        <TextView
+            android:id="@+id/cardView_tekst"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_below="@+id/cardView_naslov"/>
+
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>
