@@ -3,7 +3,7 @@
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
-    android:layout_height="wrap_content"
+    android:layout_height="275dp"
     android:orientation="vertical">
 
     <androidx.cardview.widget.CardView
@@ -31,11 +31,13 @@
                 android:id="@+id/cardView_datum"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
                 android:textColor="#000"/>
             <TextView
                 android:id="@+id/cardView_naslov"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
                 android:textSize="18dp"
                 android:textColor="#000"
                 android:textStyle="bold"/>
@@ -43,6 +45,7 @@
                 android:id="@+id/cardView_tekst"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
                 android:textColor="#000"/>
         </LinearLayout>
     </androidx.cardview.widget.CardView>
