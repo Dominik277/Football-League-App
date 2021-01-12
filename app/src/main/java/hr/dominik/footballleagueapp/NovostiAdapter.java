@@ -1,6 +1,7 @@
 package hr.dominik.footballleagueapp;
 
 import android.content.Context;
+import android.content.Intent;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -13,6 +14,12 @@ import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
 public class NovostiAdapter extends RecyclerView.Adapter<NovostiAdapter.ViewHolder> {
+
+    public interface OnItemClickListener{
+        void onItemClick(long id);
+    }
+
+    private OnItemClickListener mOnItemClickListener;
 
     private Context context;
     private ArrayList<ModelNovosti> modelNovostiArrayList;
@@ -36,6 +43,15 @@ public class NovostiAdapter extends RecyclerView.Adapter<NovostiAdapter.ViewHold
         holder.cardViewDatum.setText(modelNovosti.getDatum());
         holder.cardViewNaslov.setText(modelNovosti.getNaslov());
         holder.cardViewTekst.setText(modelNovosti.getTekst());
+
+        holder.itemView.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(context,NovostiClickActivity.class);
+
+            }
+        });
+
     }
 
     @Override
@@ -58,6 +74,10 @@ public class NovostiAdapter extends RecyclerView.Adapter<NovostiAdapter.ViewHold
             cardViewNaslov = itemView.findViewById(R.id.cardView_naslov);
             cardViewTekst = itemView.findViewById(R.id.cardView_tekst);
         }
+    }
+
+    public void setOnItemClickListener(final OnItemClickListener mItemClickListener){
+        this.mOnItemClickListener = mItemClickListener;
     }
 
 }

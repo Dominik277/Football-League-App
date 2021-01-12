@@ -1,16 +1,20 @@
 package hr.dominik.footballleagueapp;
 
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.cardview.widget.CardView;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
+import android.content.Intent;
 import android.os.Bundle;
+import android.view.View;
 
 import java.util.ArrayList;
 
 public class NovostiActivity extends AppCompatActivity {
 
     private RecyclerView recyclerView;
+    private CardView cardView;
     private ArrayList<ModelNovosti> modelNovostiArrayList;
 
     @Override
@@ -37,4 +41,5 @@ public class NovostiActivity extends AppCompatActivity {
         recyclerView.setAdapter(novostiAdapter);
 
     }
+
 }

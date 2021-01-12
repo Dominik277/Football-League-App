@@ -9,7 +9,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.FootballLeagueApp">
-        <activity android:name=".NovostiActivity"></activity>
+        <activity android:name=".NovostiClickActivity"></activity>
+        <activity android:name=".NovostiActivity" />
         <activity
             android:name=".MainActivity"
             android:label="HR Nogomet"

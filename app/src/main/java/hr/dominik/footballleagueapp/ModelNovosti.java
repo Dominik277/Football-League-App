@@ -2,23 +2,23 @@ package hr.dominik.footballleagueapp;
 
 public class ModelNovosti {
 
-    private int slika;
+    private Integer slika;
     private String datum;
     private String naslov;
     private String tekst;
 
-    public ModelNovosti(int slika, String datum, String naslov, String tekst) {
+    public ModelNovosti(Integer slika, String datum, String naslov, String tekst) {
         this.slika = slika;
         this.datum = datum;
         this.naslov = naslov;
         this.tekst = tekst;
     }
 
-    public int getSlika() {
+    public Integer getSlika() {
         return slika;
     }
 
-    public void setSlika(int slika) {
+    public void setSlika(Integer slika) {
         this.slika = slika;
     }
 
