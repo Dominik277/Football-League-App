@@ -9,28 +9,31 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
+        <activity android:name=".SplashScreenActivity"></activity>
         <activity
             android:name=".InfoActivity"
             android:label="Info"
             android:parentActivityName=".MainActivity"
-            android:theme="@style/AppTheme">>
+            android:theme="@style/AppTheme">
+            >
         </activity>
         <activity
-            android:theme="@style/AppTheme"
             android:name=".NovostiClickActivity"
             android:label="HR Nogomet"
-            android:parentActivityName=".NovostiActivity"/>
+            android:parentActivityName=".NovostiActivity"
+            android:theme="@style/AppTheme" />
         <activity
-            android:theme="@style/AppTheme"
             android:name=".NovostiActivity"
             android:label="HR Nogomet"
-            android:parentActivityName=".MainActivity"/>
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme" />
         <activity
             android:name=".MainActivity"
             android:label="HR Nogomet"
             android:theme="@style/Theme.FootballLeagueApp.NoActionBar">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
+
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
