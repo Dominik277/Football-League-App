@@ -40,22 +40,6 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        final Spinner spinner = findViewById(R.id.spinner);
-        spinner.setOnItemSelectedListener(this);
-
-        List<String> categories = new ArrayList<>();
-        categories.add("Item 1");
-        categories.add("Item 2");
-        categories.add("Item 3");
-        categories.add("Item 4");
-        categories.add("Item 5");
-
-        ArrayAdapter<String> dataAdapter = new ArrayAdapter<>(
-                this, android.R.layout.simple_spinner_item,categories);
-
-        dataAdapter.setDropDownViewResource(android.R.layout.simple_dropdown_item_1line);
-        spinner.setAdapter(dataAdapter);
-
         BottomNavigationView bottomNav = findViewById(R.id.bottom_navigation);
         bottomNav.setOnNavigationItemSelectedListener(navListener);
 
