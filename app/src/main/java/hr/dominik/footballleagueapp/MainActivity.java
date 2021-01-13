@@ -35,10 +35,15 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
     Context context;
     private DrawerLayout drawer;
 
+
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
+        Spinner spinner = findViewById(R.id.spinner);
+        spinner.setOnItemSelectedListener(this);
 
         BottomNavigationView bottomNav = findViewById(R.id.bottom_navigation);
         bottomNav.setOnNavigationItemSelectedListener(navListener);
