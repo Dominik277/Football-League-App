@@ -10,11 +10,15 @@ import android.view.View;
 import android.view.Window;
 import android.view.WindowManager;
 import android.widget.AdapterView;
+import android.widget.ArrayAdapter;
 import android.widget.Spinner;
 import android.widget.Toast;
 
 import com.google.android.material.bottomnavigation.BottomNavigationView;
 import com.google.android.material.navigation.NavigationView;
+
+import java.util.ArrayList;
+import java.util.List;
 
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.ActionBarDrawerToggle;
@@ -38,6 +42,19 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
 
         final Spinner spinner = findViewById(R.id.spinner);
         spinner.setOnItemSelectedListener(this);
+
+        List<String> categories = new ArrayList<>();
+        categories.add("Item 1");
+        categories.add("Item 2");
+        categories.add("Item 3");
+        categories.add("Item 4");
+        categories.add("Item 5");
+
+        ArrayAdapter<String> dataAdapter = new ArrayAdapter<>(
+                this, android.R.layout.simple_spinner_item,categories);
+
+        dataAdapter.setDropDownViewResource(android.R.layout.simple_dropdown_item_1line);
+        spinner.setAdapter(dataAdapter);
 
         BottomNavigationView bottomNav = findViewById(R.id.bottom_navigation);
         bottomNav.setOnNavigationItemSelectedListener(navListener);
@@ -117,7 +134,8 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
 
     @Override
     public void onItemSelected(AdapterView<?> parent, View view, int position, long id) {
-
+        String item = parent.getItemAtPosition(position).toString();
+        Toast.makeText(parent.getContext(),"Selected: " + item,Toast.LENGTH_LONG).show();
     }
 
     @Override
