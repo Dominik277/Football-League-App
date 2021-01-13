@@ -9,7 +9,7 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".SplashScreenActivity"></activity>
+        <activity android:name=".MainActivity"></activity>
         <activity
             android:name=".InfoActivity"
             android:label="Info"
@@ -28,7 +28,7 @@
             android:parentActivityName=".MainActivity"
             android:theme="@style/AppTheme" />
         <activity
-            android:name=".MainActivity"
+            android:name=".SplashScreenActivity"
             android:label="HR Nogomet"
             android:theme="@style/Theme.FootballLeagueApp.NoActionBar">
             <intent-filter>
