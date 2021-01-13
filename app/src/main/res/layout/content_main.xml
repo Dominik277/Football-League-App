@@ -9,7 +9,7 @@
     tools:showIn="@layout/app_bar_main">
 
     <LinearLayout
-        android:id="@+id/linear_layout"
+        android:id="@+id/linear_layoutPrvi"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="vertical"
@@ -22,12 +22,12 @@
             android:text="Category:"
             android:layout_marginBottom="10dp"/>
         <Spinner
-            android:id="@+id/spinner"
+            android:id="@+id/spinnerPrvi"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"/>
     </LinearLayout>
     <LinearLayout
-        android:id="@+id/linear_layout"
+        android:id="@+id/linear_layoutDrugi"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="vertical"
@@ -40,12 +40,12 @@
             android:text="Category:"
             android:layout_marginBottom="10dp"/>
         <Spinner
-            android:id="@+id/spinner"
+            android:id="@+id/spinnerDrugi"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"/>
     </LinearLayout>
     <LinearLayout
-        android:id="@+id/linear_layout"
+        android:id="@+id/linear_layoutTreci"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="vertical"
@@ -58,12 +58,12 @@
             android:text="Category:"
             android:layout_marginBottom="10dp"/>
         <Spinner
-            android:id="@+id/spinner"
+            android:id="@+id/spinnerTreci"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"/>
     </LinearLayout>
     <LinearLayout
-        android:id="@+id/linear_layout"
+        android:id="@+id/linear_layoutCetvrti"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="vertical"
@@ -76,12 +76,12 @@
             android:text="Category:"
             android:layout_marginBottom="10dp"/>
         <Spinner
-            android:id="@+id/spinner"
+            android:id="@+id/spinnerCetvrti"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"/>
     </LinearLayout>
     <LinearLayout
-        android:id="@+id/linear_layout"
+        android:id="@+id/linear_layoutPeti"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="vertical"
@@ -94,12 +94,12 @@
             android:text="Category:"
             android:layout_marginBottom="10dp"/>
         <Spinner
-            android:id="@+id/spinner"
+            android:id="@+id/spinnerPeti"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"/>
     </LinearLayout>
     <LinearLayout
-        android:id="@+id/linear_layout"
+        android:id="@+id/linear_layoutSesti"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="vertical"
@@ -112,12 +112,12 @@
             android:text="Category:"
             android:layout_marginBottom="10dp"/>
         <Spinner
-            android:id="@+id/spinner"
+            android:id="@+id/spinnerSesti"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"/>
     </LinearLayout>
     <LinearLayout
-        android:id="@+id/linear_layout"
+        android:id="@+id/linear_layoutSedmi"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="vertical"
@@ -130,12 +130,12 @@
             android:text="Category:"
             android:layout_marginBottom="10dp"/>
         <Spinner
-            android:id="@+id/spinner"
+            android:id="@+id/spinnerOsmi"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"/>
     </LinearLayout>
     <LinearLayout
-        android:id="@+id/linear_layout"
+        android:id="@+id/linear_layoutDeveti"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="vertical"
@@ -148,12 +148,12 @@
             android:text="Category:"
             android:layout_marginBottom="10dp"/>
         <Spinner
-            android:id="@+id/spinner"
+            android:id="@+id/spinnerDeveti"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"/>
     </LinearLayout>
     <LinearLayout
-        android:id="@+id/linear_layout"
+        android:id="@+id/linear_layoutDeseti"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="vertical"
@@ -166,12 +166,12 @@
             android:text="Category:"
             android:layout_marginBottom="10dp"/>
         <Spinner
-            android:id="@+id/spinner"
+            android:id="@+id/spinnerDeseti"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"/>
     </LinearLayout>
     <LinearLayout
-        android:id="@+id/linear_layout"
+        android:id="@+id/linear_layoutJedanaesti"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="vertical"
@@ -184,12 +184,12 @@
             android:text="Category:"
             android:layout_marginBottom="10dp"/>
         <Spinner
-            android:id="@+id/spinner"
+            android:id="@+id/spinnerJedanaesti"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"/>
     </LinearLayout>
     <LinearLayout
-        android:id="@+id/linear_layout"
+        android:id="@+id/linear_layoutDvanaesti"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="vertical"
@@ -202,12 +202,12 @@
             android:text="Category:"
             android:layout_marginBottom="10dp"/>
         <Spinner
-            android:id="@+id/spinner"
+            android:id="@+id/spinnerDvanaesti"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"/>
     </LinearLayout>
     <LinearLayout
-        android:id="@+id/linear_layout"
+        android:id="@+id/linear_layoutTrinaesti"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="vertical"
@@ -220,12 +220,12 @@
             android:text="Category:"
             android:layout_marginBottom="10dp"/>
         <Spinner
-            android:id="@+id/spinner"
+            android:id="@+id/spinnerTrinaesti"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"/>
     </LinearLayout>
     <LinearLayout
-        android:id="@+id/linear_layout"
+        android:id="@+id/linear_layoutCetrnaesti"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="vertical"
@@ -238,12 +238,12 @@
             android:text="Category:"
             android:layout_marginBottom="10dp"/>
         <Spinner
-            android:id="@+id/spinner"
+            android:id="@+id/spinnerCetrnaesti"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"/>
     </LinearLayout>
     <LinearLayout
-        android:id="@+id/linear_layout"
+        android:id="@+id/linear_layoutPetnaesti"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="vertical"
@@ -256,12 +256,12 @@
             android:text="Category:"
             android:layout_marginBottom="10dp"/>
         <Spinner
-            android:id="@+id/spinner"
+            android:id="@+id/spinnerPetnaesti"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"/>
     </LinearLayout>
     <LinearLayout
-        android:id="@+id/linear_layout"
+        android:id="@+id/linear_layoutSesnaesti"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="vertical"
@@ -274,12 +274,12 @@
             android:text="Category:"
             android:layout_marginBottom="10dp"/>
         <Spinner
-            android:id="@+id/spinner"
+            android:id="@+id/spinnerSesnaesti"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"/>
     </LinearLayout>
     <LinearLayout
-        android:id="@+id/linear_layout"
+        android:id="@+id/linear_layoutSedamnaesti"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="vertical"
@@ -292,12 +292,12 @@
             android:text="Category:"
             android:layout_marginBottom="10dp"/>
         <Spinner
-            android:id="@+id/spinner"
+            android:id="@+id/spinnerSedamnaesti"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"/>
     </LinearLayout>
     <LinearLayout
-        android:id="@+id/linear_layout"
+        android:id="@+id/linear_layoutOsamnaesti"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="vertical"
@@ -310,12 +310,12 @@
             android:text="Category:"
             android:layout_marginBottom="10dp"/>
         <Spinner
-            android:id="@+id/spinner"
+            android:id="@+id/spinnerOsamnaesti"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"/>
     </LinearLayout>
     <LinearLayout
-        android:id="@+id/linear_layout"
+        android:id="@+id/linear_layoutDevetnaesti"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="vertical"
@@ -328,12 +328,12 @@
             android:text="Category:"
             android:layout_marginBottom="10dp"/>
         <Spinner
-            android:id="@+id/spinner"
+            android:id="@+id/spinnerDevetnaesti"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"/>
     </LinearLayout>
     <LinearLayout
-        android:id="@+id/linear_layout"
+        android:id="@+id/linear_layoutDvadeseti"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="vertical"
@@ -346,12 +346,12 @@
             android:text="Category:"
             android:layout_marginBottom="10dp"/>
         <Spinner
-            android:id="@+id/spinner"
+            android:id="@+id/spinnerDvadeseti"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"/>
     </LinearLayout>
     <LinearLayout
-        android:id="@+id/linear_layout"
+        android:id="@+id/linear_layoutDvadesetiprvi"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="vertical"
@@ -364,12 +364,12 @@
             android:text="Category:"
             android:layout_marginBottom="10dp"/>
         <Spinner
-            android:id="@+id/spinner"
+            android:id="@+id/spinnerDvadesetiprvi"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"/>
     </LinearLayout>
     <LinearLayout
-        android:id="@+id/linear_layout"
+        android:id="@+id/linear_layoutDvadesetidrugi"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="vertical"
@@ -382,12 +382,12 @@
             android:text="Category:"
             android:layout_marginBottom="10dp"/>
         <Spinner
-            android:id="@+id/spinner"
+            android:id="@+id/spinnerDvadesetidrugi"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"/>
     </LinearLayout>
     <LinearLayout
-        android:id="@+id/linear_layout"
+        android:id="@+id/linear_layoutDvadesetitreci"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="vertical"
@@ -400,12 +400,12 @@
             android:text="Category:"
             android:layout_marginBottom="10dp"/>
         <Spinner
-            android:id="@+id/spinner"
+            android:id="@+id/spinnerDvadesetitreci"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"/>
     </LinearLayout>
     <LinearLayout
-        android:id="@+id/linear_layout"
+        android:id="@+id/linear_layoutDvadeseticetvrti"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="vertical"
@@ -418,12 +418,12 @@
             android:text="Category:"
             android:layout_marginBottom="10dp"/>
         <Spinner
-            android:id="@+id/spinner"
+            android:id="@+id/spinnerDvadeseticetvrti"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"/>
     </LinearLayout>
     <LinearLayout
-        android:id="@+id/linear_layout"
+        android:id="@+id/linear_layoutDvadesetipeti"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="vertical"
@@ -436,12 +436,12 @@
             android:text="Category:"
             android:layout_marginBottom="10dp"/>
         <Spinner
-            android:id="@+id/spinner"
+            android:id="@+id/spinnerDvadesetipeti"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"/>
     </LinearLayout>
     <LinearLayout
-        android:id="@+id/linear_layout"
+        android:id="@+id/linear_layoutDvadesetisesti"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="vertical"
@@ -454,12 +454,12 @@
             android:text="Category:"
             android:layout_marginBottom="10dp"/>
         <Spinner
-            android:id="@+id/spinner"
+            android:id="@+id/spinnerDvadesetisesti"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"/>
     </LinearLayout>
     <LinearLayout
-        android:id="@+id/linear_layout"
+        android:id="@+id/linear_layoutDvadesetisedmi"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="vertical"
@@ -472,12 +472,12 @@
             android:text="Category:"
             android:layout_marginBottom="10dp"/>
         <Spinner
-            android:id="@+id/spinner"
+            android:id="@+id/spinnerDvadesetisedmi"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"/>
     </LinearLayout>
     <LinearLayout
-        android:id="@+id/linear_layout"
+        android:id="@+id/linear_layoutDvadesetiosmi"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="vertical"
@@ -490,7 +490,7 @@
             android:text="Category:"
             android:layout_marginBottom="10dp"/>
         <Spinner
-            android:id="@+id/spinner"
+            android:id="@+id/spinnerDvadesetiosmi"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"/>
     </LinearLayout>
